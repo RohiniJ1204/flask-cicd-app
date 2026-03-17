@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git 'https://github.com/RohiniJ1204/flask-cicd-project.git'
+                git 'https://github.com/RohiniJ1204/flask-cicd-app.git'
             }
         }
 
